@@ -1,0 +1,74 @@
+.main {
+    padding: 5%;
+    font-family: Montserrat-Regular;
+}
+
+#name {
+    font-family: Montserrat-ExtraLight;
+    color: #846855;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#title {
+    color: #545454;
+}
+
+#school {
+    color: #737373
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    border-radius: 12px;
+}
+
+#avatar {
+    grid-column: 1/2;
+    padding: 5%;
+}
+
+#avatar img {
+    border-radius: 12%;
+}
+
+#infos {
+    grid-column: 2/3;
+    padding: 5%;
+}
+
+button {
+    grid-column: 2/3;
+    width: 60%;
+    border: solid 1px #737373;
+    border-radius: 4px;
+    padding: 8px;
+    color: #545454;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.7s;
+    vertical-align: bottom  ;
+}
+
+button:hover {
+    background-color: #dbd8d6;
+    transition: 0.3s;
+}
+
+.contactlink, i{
+    transition: 0.7;
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+}
+
+.contactlink:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}

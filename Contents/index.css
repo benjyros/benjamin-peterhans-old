@@ -1,0 +1,127 @@
+/*profile section starts*/
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+#name {
+    color: #846855;
+    font-size: 40px;
+    font-family: Montserrat-ExtraLight;
+}
+
+/*profile section ends*/
+
+/*introduction section starts*/
+#introduction {
+    font-family: monospace;
+    background-color: #f0ece9;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+code {
+    color: crimson;
+}
+
+/*introduction section ends*/
+
+/*skills section starts*/
+#skills {
+    text-align: center;
+}
+
+#skills p {
+    color: #846855;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+}
+
+#skills table {
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.label {
+    text-align: right;
+    padding-right: 20px;
+}
+
+progress {
+    border: none;
+    border-radius: 50px;
+    height: 10px;
+}
+
+progress::-webkit-progress-value {
+    background: #846855;
+    border-radius: 50px;
+}
+
+progress::-webkit-progress-bar {
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+#skillsContainer {
+    margin-top: 5%;
+    background-color: #f0ece9;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.bar {
+    margin: 10px;
+    width: 151px;
+}
+
+.info {
+    background-color: #dbd8d6;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+.info:hover {
+    box-shadow: 1px 1px 10px gray;
+    background-color: #c7c6c5;
+    transition: 0.2s;
+}
+
+.info img {
+    width: 40px;
+    margin: 5%;
+}
+
+.info span {
+    color: #545454;
+    font-family: Montserrat-Regular;
+}
+
+/*skills section ends*/
+
+/*github stats section starts*/
+#githubstats {
+    text-align: center;
+}
+
+#githubstats p {
+    color: #846855;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+}
+
+#githubstats div a img {
+    margin-bottom: 5%;
+}
+
+/*github stats section ends*/
+/*main section ends*/

@@ -1,0 +1,120 @@
+html {
+    font-family: Montserrat-Regular;
+}
+
+.main {
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+canvas {
+    text-align: center;
+}
+
+input[type=text] {
+    color: #737373;
+    background-color: #dbd8d6;
+    width: 5%;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#solution {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+#container,
+#placeholder {
+    text-align: center;
+}
+
+#gameContent {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+#gameTitle {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #846855;
+}
+
+.button {
+    font-size: 17px;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    border: solid 1px #737373;
+    border-radius: 4px;
+    text-align: center;
+    color: #545454;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: #dbd8d6;
+}
+
+#replay {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#placeholder {
+    text-align: center;
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#input {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#clueholder {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#guesses {
+    text-align: center;
+}
+
+#feedback {
+    margin-top: 50px;
+    font-size: 34px;
+    text-align: center;
+    color: #846855;
+}
+
+.tile {
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-right: 10px;
+    background-color: #dbd8d6;
+    text-align: center;
+    color: #737373;
+}
+
+#finalMessage {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}

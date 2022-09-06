@@ -1,0 +1,130 @@
+/*Fonts*/
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../Fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url("../Fonts/Montserrat-ExtraLight.ttf");
+}
+
+/*HTML*/
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+}
+
+/*body*/
+body {
+    margin-bottom: auto;
+    font-family: Montserrat-Regular;
+}
+
+/*navbar section starts*/
+nav {
+    background-color: #f5f3f2;
+    border-bottom: 1px solid #73737375;
+}
+
+.menuitem,
+.menuitem:active {
+    text-align: center;
+    color: #846855;
+}
+
+.menuitem:hover {
+    transform: scale(1.05);
+    color: #846855;
+}
+
+/*navbar section ends*/
+
+/*hr*/
+hr {
+    width: 60%;
+}
+
+/*main section starts*/
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main {
+    background-color: #f5f3f2;
+    border-radius: 10px;
+}
+
+main div section {
+    margin: 5%;
+}
+/*main section ends*/
+
+/*footer section starts*/
+footer {
+    background-color: #f5f3f2;
+    height: 300px;
+    opacity: 0.5;
+    transition: 0.7s;
+    text-align: center;
+    border-top: 1px solid #73737375;
+}
+
+footer:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#goTopBtn {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #846855;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+#footerlogo {
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.footerlogo {
+    opacity: 0.5;
+    transition: 0.7s;
+    padding: 1%;
+}
+
+.footerlogo img {
+    width: 40px;
+    transition: 0.5s;
+}
+
+.footerlogo img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footerlogo:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Bourgeois W00 Medium", "Arial Regular", Arial, sans-serif;
+    font-size: 12px;
+}
+
+/*footer section ends*/

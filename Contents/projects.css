@@ -1,0 +1,72 @@
+.main {
+    padding-top: 5%;
+    font-family: Montserrat-Regular;
+    padding: 5%;
+}
+
+#titel,
+hr {
+    text-align: center;
+    color: #846855;
+    font-size: 30px;
+}
+
+#container {
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.card {
+    width: 30%;
+    margin-top: 5%;
+    margin: 15px;
+    text-align: center;
+    background-color: #dbd8d6;
+    border-radius: 15px;
+    transition: 0.7s;
+    position: relative;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    display: block;
+    transition: .5s ease;
+    filter: brightness(75%);
+    backface-visibility: hidden;
+}
+
+.hidden {
+    transition: .5s ease;
+    width: 100%;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card:hover .img  {
+    box-shadow: 1px 1px 10px gray;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.card:hover .hidden {
+    opacity: 1;
+}
+
+.titel {
+    background-color: #000;
+    color: white;
+    font-size: 12px;
+    padding: 16px 32px;
+}
+
+.card span {
+    color: #545454;
+    font-family: Montserrat-Regular;
+}
