@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "skill": "HTML/CSS",
+            "percentage": "92"
+        },
+        {
+            "skill": "JavaScript",
+            "percentage": "69"
+        },
+        {
+            "skill": "C#",
+            "percentage": "78"
+        },
+        {
+            "skill": "Java",
+            "percentage": "81"
+        },
+        {
+            "skill": "SQL",
+            "percentage": "60"
+        }
+    ]
+}

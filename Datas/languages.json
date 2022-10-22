@@ -1,0 +1,36 @@
+{
+    "languages": [
+        {
+            "language": "HTML5",
+            "file": "html5"
+        },
+        {
+            "language": "CSS3",
+            "file": "css3"
+        },
+        {
+            "language": "JavaScript",
+            "file": "js"
+        },
+        {
+            "language": "jQuery",
+            "file": "jquery"
+        },
+        {
+            "language": "Bootstrap",
+            "file": "bootstrap"
+        },
+        {
+            "language": "C#",
+            "file": "csharp"
+        },
+        {
+            "language": "Java",
+            "file": "java"
+        },
+        {
+            "language": "MySQL",
+            "file": "mysql"
+        }
+    ]
+}

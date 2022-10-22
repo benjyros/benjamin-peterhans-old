@@ -72,36 +72,35 @@ progress::-webkit-progress-bar {
     border-radius: 50px;
 }
 
-#skillsContainer {
+#languageContainer {
     margin-top: 5%;
     background-color: #f0ece9;
     border-radius: 15px;
-    text-align: center;
 }
 
 .bar {
-    margin: 10px;
-    width: 151px;
-}
-
-.info {
     background-color: #dbd8d6;
     border-radius: 15px;
     transition: 0.7s;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
-.info:hover {
+.bar:hover {
     box-shadow: 1px 1px 10px gray;
     background-color: #c7c6c5;
     transition: 0.2s;
 }
 
-.info img {
+.bar img {
     width: 40px;
     margin: 5%;
 }
 
-.info span {
+.bar span {
     color: #545454;
     font-family: Montserrat-Regular;
 }
