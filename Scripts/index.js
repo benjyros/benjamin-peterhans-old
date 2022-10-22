@@ -55,7 +55,7 @@ $(document).ready(function () {
         $(".main").append('<section id="introduction"></section>');
         for (var i = 0; i < webLanguages.length; i++) {
             if (language == webLanguages[i]) {
-                $("#introduction").append('<script src="https://gist.github.com/benjyros/28f6d8bf0eb3236fd5f9d93925f91df1.js"></script>');
+                $("#introduction").append('<script src="' + webLinks[i] + '"></script>');
             }
         }
 
