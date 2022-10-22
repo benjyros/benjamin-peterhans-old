@@ -1,12 +1,10 @@
 {
     "weblanguages": [
         {
-            "language": "english",
-            "link": "https://gist.github.com/benjyros/28f6d8bf0eb3236fd5f9d93925f91df1.js"
+            "language": "english"
         },
         {
-            "language": "german",
-            "link": "https://gist.github.com/benjyros/28f6d8bf0eb3236fd5f9d93925f91df1.js"
+            "language": "german"
         }
     ]
 }

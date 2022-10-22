@@ -5,9 +5,8 @@ $(document).ready(function () {
     var languages = new Array;
     var fileNames = new Array;
     var webLanguages = new Array;
-    var webLinks = new Array;
 
-    var language = "english";
+    var language = "german";
 
     $.getJSON("Datas/skills.json", function (data) {
         for (var i = 0; i < data.skills.length; i++) {
@@ -26,7 +25,6 @@ $(document).ready(function () {
     $.getJSON("Datas/weblanguages.json", function (data) {
         for (var i = 0; i < data.weblanguages.length; i++) {
             webLanguages[i] = data.weblanguages[i].language;
-            webLinks[i] = data.weblanguages[i].link;
         }
         buildSections();
     });
@@ -52,10 +50,11 @@ $(document).ready(function () {
     }
 
     function buildIntroductionSection() {
+        document
         $(".main").append('<section id="introduction"></section>');
         for (var i = 0; i < webLanguages.length; i++) {
             if (language == webLanguages[i]) {
-                $("#introduction").append('<script src="' + webLinks[i] + '"></script>');
+                $("#introduction").append('<script src="Scripts/Languages/' + webLanguages[i] + '.js"></script>');
             }
         }
 
